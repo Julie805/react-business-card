@@ -6,8 +6,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: #4A4E74;
-    position: absolute;
-    width: 550px;
+    width: 500px;
     height: 868px;
     left: 73px;
     top: 960px;
@@ -17,11 +16,11 @@ body {
 
 .container {
     width: 317px;
-    height: 706px;
-    left: 116px;
-    top: 361px;
+    height: 480px;
     background: #F5F5F5;
     border-radius: 10px 10px 0px 0px;
+    margin-top: 45px;
+    margin-left: 117px;
 }
 
 .headshot {
@@ -29,7 +28,7 @@ body {
     left: 116px;
     top: 44px;
     border-radius: 10px 10px 0px 0px;
-    margin: 0;
+    margin: 0;    
 }
 
 .text-area {
@@ -57,7 +56,7 @@ body {
     line-height:20px;  
 }
 
-a:link, a:visited, a:hover, a:active{
+.portfolio a:link, .portfolio a:visited, .portfolio a:hover, .portfolio a:active {
     text-decoration:  none;   
     color: #4A4E74; 
 }
@@ -90,13 +89,62 @@ a:link, a:visited, a:hover, a:active{
     line-height: 16px;
 }
 
+
+a:link, a:visited, a:hover, a:active{   
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .email-btn {
-    background: #FFFFFF;
+    background: lightslategrey;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     color: #374151;
 }
 
-.linkedin-btn a {
-    color: #FFFFFF;
+.about-container, .interests-container {   
+    width: 317px;
+    height: 110px;
+    background: #F5F5F5;
+    display: inline-block;
+    margin-left: 117px;
+    padding: 0 35px;
 }
+
+.interests-container {
+    height: 130px;   
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 5px;
+    color: #2B283A;
+    margin-top: 30px
+}
+
+p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #4A4E74;
+}
+
+.footer-container {
+    width: 317px;
+    height: 64px;
+    background: #D5D4D8;
+    display: inline-block;
+    margin-left: 117px;
+    padding: 0 35px; 
+    border-radius: 0px 0px 10px 10px;  
+}
+
+.footer-flex {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;   
+}
+
