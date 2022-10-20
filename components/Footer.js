@@ -2,9 +2,10 @@ import React from "react"
 
 export default function Footer () {
     return (
-        <div>
-            <h2>About</h2>
-            <p>A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp.</p>
-        </div>
+       <footer className="social-icons">
+            <a href="https://twitter.com/greenjules"><img src="./img/twitter-icon.png" /></a>
+            <a href="https://github.com/Julie805"><img src="./img/github-icon.png" /></a>
+            <a href="https://www.instagram.com/superfoodjules"><img src="./img/instagram-icon.png" /></a>
+        </footer>
     )
 }

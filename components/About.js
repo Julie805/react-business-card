@@ -4,7 +4,7 @@ export default function About () {
     return (
         <div>
             <h2>About</h2>
-            <p>A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration. The thick shell contains the seeds and pulp.</p>
+            <p>I am a frontend developer with a particular interest in making things simple and beautiful. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
         </div>
     )
 }
